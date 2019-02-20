@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class TeamPage extends BasePage{
 
-    By topics=By.xpath("//*[@class='title media-heading']/a");
+    By topics=By.xpath("//*[@class='page-users']//*[@class='title media-heading']/a");
 
 
     public LoginPage gotoLogin(){
