@@ -40,6 +40,18 @@
                             <name>allure.results.directory</name>
                             <value>${project.build.directory}/allure-results</value>
                         </property>
+                        <property>
+                            <name>allure.link.issue.pattern</name>
+                            <value>https://example.org/issue/{}</value>
+                        </property>
+                        <property>
+                            <name>allure.link.mylink.pattern</name>
+                            <value>https://example.org/mylink/{}</value>
+                        </property>
+                        <property>
+                            <name>allure.link.tms.pattern</name>
+                            <value>https://example.org/tms/{}</value>
+                        </property>
                     </systemProperties>
                 </configuration>
                 <dependencies>

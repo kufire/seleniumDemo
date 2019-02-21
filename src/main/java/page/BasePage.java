@@ -22,6 +22,7 @@ public class BasePage {
             return By.id(locator);
         }
     }
+
     static By text(String content){
         return By.xpath("//*[@text='"+ content + "']");
     }
